@@ -14,5 +14,5 @@ $telefono=$_POST['telefono'];
     $sql="INSERT INTO `usuarios` (`nombres`, `apellidos`, `correo`, `telefono`)
     VALUES ('$nombres', '$apellidos', '$correo','$telefono')";
     $resul = mysqli_query($conectar,$sql)or trigger_error("Query Failed! SQL- Error:".mysql_error($conectar));
-
+ echo"gracias";
 ?>

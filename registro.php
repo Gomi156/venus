@@ -15,7 +15,7 @@ $telefono=$_POST['telefono'];
     VALUES ('$nombres', '$apellidos', '$correo','$telefono')";
     $resul = mysqli_query($conectar,$sql)or trigger_error("Query Failed! SQL- Error:".mysql_error($conectar));
  echo'<script type="text/javascript">
-alert("Tus datos han sido capturados");
-window.location.href="";
+alert("Tarea Guardada");
+window.location.href="index.php";
 </script>';
 ?>

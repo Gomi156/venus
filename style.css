@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    Font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #aeaf90;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.menu {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.menu a {
+    display: block;
+    padding: 20px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    background: rgb(99, 72, 72);
+}
+
+.venus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.venus {
+    height: 60vh !important;
+    background: url(img/header.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(99, 72, 72);
+}
+
+p {
+   
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding: 0 100px;
+    
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid rgb(99, 72, 72);
+    color: rgb(245, 238, 238);
+    text-decoration: none;
+    background-color:rgb(99, 72, 72);
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.contenedor {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Color verde olivo */
+.siguenos {
+    padding: 30px;
+    background: #aeaf90;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    text-align: center;
+    
+}
+/*Color verde olivo */
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #aeaf90;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(99, 72, 72);
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color:rgb(99, 72, 72);
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.nosotros {
+    background: url(img/costos.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    
+}
+.prodc {
+    background: url(img/costos.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+.precio {
+    
+    background: #aeaf90;
+}
+
+
+.contacto {
+    padding-top: 35px;
+    background: #aeaf90;
+    padding-bottom: 0;
+    
+}
+.map{
+    height:250px;
+    width:500px;
+}
+
+/*formulario */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.form-register {
+  width: 400px;
+  background: rgb(99, 72, 72);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow:  #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid rgb(99, 72, 72);
+  font-family: 'calibri';
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: rgb(99, 72, 72);
+  border: none;
+  padding: 12px;
+  color: rgb(0, 0, 0);
+  margin: 16px 0;
+  font-size: 16px;
+} 
+
+
+.agenda{
+    background: url(https://acortar.link/dVCYAT) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+@media( max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .siguenos {
+        height: 100vh;
+        padding: 90px;
+    }
+
+    .menu {
+        display: none;        
+    }
+    
+ 
+    .logo{
+        margin-left: none;
+    }
+   
+    p { 
+        padding: 0 0px;
+        font-size: 14px;
+    }
+     .map {
+        height:150px ;
+        width:250px ;
+     }
+    
+    .precio {
+    
+       padding: 90px;
+    }
+    .nosotros{
+        padding:90px ;
+    }
+
+    .prodc {
+        padding: 90px;
+    }
+
+    .contactos {
+        padding: 90px;
+    }
+    .agenda{
+        padding:90px ;
+    }
+}

@@ -14,5 +14,26 @@ $telefono=$_POST['telefono'];
     $sql="INSERT INTO `usuarios` (`nombres`, `apellidos`, `correo`, `telefono`)
     VALUES ('$nombres', '$apellidos', '$correo','$telefono')";
     $resul = mysqli_query($conectar,$sql)or trigger_error("Query Failed! SQL- Error:".mysql_error($conectar));
- echo"gracias";
+ 
 ?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Datos </title>
+        <link rel="stylesheet" href="estilos.css">
+       
+</head>
+<body> 
+<hi> Datos registrados</h1>
+<p> Nombre: <?php echo $nombres;?></p>
+<p> Apellido: <?php echo $apellidos;?></p>
+<p> Correo: <?php echo $correo;?></p>
+<p> Telefono: <?php echo $telefono;?></p>
+
+
+
+</body>
+</html>

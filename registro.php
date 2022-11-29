@@ -16,8 +16,8 @@ $telefono=$_POST['telefono'];
     VALUES ('$nombres', '$apellidos', '$correo','$telefono')";
     $resul = mysqli_query($conectar,$sql)or trigger_error("Query Failed! SQL- Error:".mysql_error($conectar));
  
-    echo'<script type="alert">
-alert("Nos comunicaremos contigo");
-window.location.href="index.php";
-</script>';
+    echo'<script type="text/javascript">
+    alert("Nos comunicaremos contigo");
+    window.location.href="index.php";
+    </script>';
 ?>
